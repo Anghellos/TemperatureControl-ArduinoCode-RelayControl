@@ -11,10 +11,8 @@ const int RELAY_PIN = 4;          // pin Realy is connected to
 //============================Set Constants============================//
 
 const int USER_TEMP = 28;
-//const char* SSID = "FRITZ!Box 3490";    // WiFi-name
-//const char* PASS = "04061984";          // WiFi-password
-const char* SSID = "Free Wi-Fi";    // WiFi-name
-const char* PASS = "jojolinul";          // WiFi-password
+const char* SSID = "Your Wifi Name";    // WiFi-name
+const char* PASS = "Your Wifi password";          // WiFi-password
 
 const int WIFI_DELAY = 15 * 1000;            // connect to Wifi delay 5 seconds (1 second = 1000 ms)
 const int READ_DELAY = 15 * 1000;            // read temperature from ThinkSpeak MQTT delay (1 second = 1000 ms)
